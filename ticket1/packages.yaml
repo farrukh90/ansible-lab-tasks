@@ -1,1 +1,8 @@
-
+---
+- name: Installs packages
+  hosts: all 
+  become: true
+  become_method: sudo 
+  tasks:
+  - name: install list of packages
+    # Your code goes here
