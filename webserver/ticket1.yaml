@@ -1,0 +1,7 @@
+---
+- name: Install Web Server
+  hosts: all 
+  user: root
+  tasks:
+  - name: # add your code below
+    
