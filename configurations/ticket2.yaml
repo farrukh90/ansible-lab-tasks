@@ -1,0 +1,7 @@
+---
+- name: Change Configurations of /etc/motd
+  hosts: all 
+  user: root
+  tasks:
+  - name: Change Configurations of /etc/motd
+    # Your code goes here
