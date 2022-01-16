@@ -1,0 +1,7 @@
+---
+- name: add groups
+  hosts: all 
+  user: root
+  tasks:
+  - name: add list of groups
+    # Your code goes here
