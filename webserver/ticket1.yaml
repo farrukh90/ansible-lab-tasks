@@ -1,7 +1,7 @@
 ---
 - name: Install Web Server
   hosts: all 
-  user: root
+  user: ec2-user
   tasks:
   - name: # add your code below
     

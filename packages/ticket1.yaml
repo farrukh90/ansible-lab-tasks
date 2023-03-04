@@ -1,7 +1,7 @@
 ---
 - name: Installs packages
   hosts: all 
-  user: root
+  user: ec2-user
   tasks:
   - name: install list of packages
     # Your code goes here

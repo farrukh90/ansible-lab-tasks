@@ -1,7 +1,7 @@
 ---
 - name: Change Configurations
   hosts: all 
-  user: root
+  user: ec2-user
   tasks:
   - name: Change Configurations
     # Your code goes here

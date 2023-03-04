@@ -1,7 +1,7 @@
 ---
 - name: add groups
   hosts: all 
-  user: root
+  user: ec2-user
   tasks:
   - name: add list of groups
     # Your code goes here
