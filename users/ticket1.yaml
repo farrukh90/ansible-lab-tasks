@@ -1,7 +1,0 @@
----
-- name: add users
-  hosts: all 
-  user: root
-  tasks:
-  - name: add list of users
-    # Your code goes here

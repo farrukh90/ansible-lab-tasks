@@ -1,7 +1,0 @@
----
-- name: Change Configurations
-  hosts: all 
-  user: root
-  tasks:
-  - name: Change Configurations
-    # Your code goes here
